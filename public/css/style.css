@@ -1,0 +1,208 @@
+body {
+	font: 14px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: 333;
+
+}
+.top-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	background-color: rgb(51, 255, 0);
+	z-index: 9999;
+	box-sizing: border-box;
+	border-bottom:5px solid green;
+}
+
+.top-bar h2 {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.top-bar a {
+	text-decoration: none;
+	color: blue;
+}
+
+.top-bar a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 960px;
+	margin: 50px auto;
+	background-color: #fff;
+	font: 16px/28px arial, sans-serif;
+	padding: 20px;
+    box-sizing: border-box;
+}
+
+.header .judul {
+	font-size: 30px ;
+	font-weight: bold;
+}
+
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 0;
+}
+
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 3px;
+	font-size: 16px;
+}
+
+
+.header a:hover {
+	background-color: rgb(0, 183, 255);
+	color: #eaeaea;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.hero	{
+	background-image: url(../img/city.png) ;
+	height: 340px;
+	background-size: cover;
+	background-position: 0 -200px;
+	border-top: 8px solid	lightgreen ;
+	border-bottom: 8px solid	lightblue ;
+	margin-bottom: 20px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 20px;
+}
+
+.main {
+	padding: 15px;
+	text-align: justify;
+	box-sizing: border-box;
+}
+
+.main h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.main h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main p {
+	line-height: 30px ;
+}
+
+.main .paragraf {
+	text-indent: 0.5in;
+}
+
+.main .penulis {
+	font-size: 13px;
+	margin-top: -2px;
+	margin-bottom: 4px;
+}
+.main .penulis a{
+	color: blue;
+}
+
+.main .penulis a:hover {
+	font-size: 15px;
+}
+
+.sidebar {
+	box-sizing: border-box;
+}
+
+.sidebar h3 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.sidebar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 8px;
+}
+
+.sidebar p{
+	font-size: 13px;
+	color: rgb(61, 58, 58)
+}
+
+.footer {
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer .copy-right	{
+	color: #eaeaea;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+/* CSS reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
