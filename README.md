@@ -1,1 +1,1 @@
-# LIHAT BRANCH UNTUK LEBIH LENGKAP
+# Ini adalah branch pertemuan 2 latihan dan tugas praktikum ada di branch
